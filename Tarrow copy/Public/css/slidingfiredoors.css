@@ -1,0 +1,370 @@
+body {
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: auto;
+}
+
+/* Navigation */
+
+.navbar-brand {
+  display: none;
+}
+
+.nav-link:hover {
+  color: orangered;
+}
+
+.hr {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.main-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 1000px;
+  border: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+
+/* main */
+
+.main-heading {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* canvas */
+.orb-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.overlay {
+  width: 100%;
+  max-width: 1140px;
+  padding: 8rem 6rem;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.375);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.overlay__inner {
+  max-width: 40rem;
+}
+
+.overlay__title {
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: 2rem;
+}
+
+.overlay__description {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* image */
+img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+/* Not too many browser support this yet but it's good to add! */
+@media (prefers-contrast: high) {
+  .orb-canvas {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .overlay {
+    padding: 8rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+
+  .overlay {
+    padding: 4rem;
+    height: auto;
+  }
+
+  .overlay__title {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .overlay__description {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .overlay {
+    padding: 1.5rem;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  margin-top: 2rem;
+}
+
+.grid-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Create three equal-width columns */
+  gap: 20px;
+  /* Add spacing between grid items */
+}
+
+.grid-item {
+  color: white;
+  padding: 20px;
+}
+
+.footer-logo {
+  width: auto;
+  height: 200px;
+  float: left;
+}
+
+.footer-text {
+  text-align: left;
+  float: left;
+}
+
+.button {
+  padding: 15px;
+  height: 50px;
+  width: auto;
+  background-color: orangered;
+  float: left;
+}
+
+.first-button {
+  padding: 15px;
+  height: 50px;
+  width: 30%;
+  background-color: orangered;
+  margin: 0 auto;
+}
+
+.quote {
+  text-decoration: none;
+  color: #000000;
+  border: 0;
+}
+
+.Footer-quote {
+  float: left;
+  background-color: orangered;
+  border: none;
+  height: 45px;
+  width: auto;
+  margin: 0;
+  padding: 5px;
+}
+
+.socials {
+  margin-top: 5rem;
+  margin-left: -7.5rem;
+  float: left;
+  text-align: left;
+}
+
+.product-header2 {
+  text-align: left;
+  width: 250px;
+  margin:5rem auto 0;
+  padding: 0;
+  font-size: 20px;
+  color: orangered;
+}
+
+.product-list {
+  list-style: none;
+  text-align: left;
+  width: 250px;
+  margin:auto;
+  padding: 0;
+}
+
+.service-header {
+  text-align: center;
+  width: 100px;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+.contact-us {
+  margin-top: 5rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+.adress {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 1509px) {
+  .text-side {
+    background-color: #f0f0f0;
+    padding: 90px 0px 20px 0;
+    text-align: center;
+    background-color: #D9D9D9;
+    height: auto;
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .Logo {
+    margin-top: 2rem;
+    display: none;
+  }
+
+  .main-hr {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: flex;
+    height: 150px;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .navbar-brand img {
+    transition: opacity 0.3s ease-in;
+  }
+
+  .nav-item {
+    text-align: left;
+  }
+
+  .rectangle {
+    margin: 0;
+    /* Remove the horizontal margins */
+    align-items: center;
+    /* Center the items vertically on smaller screens */
+  }
+
+  .action-images {
+    margin-top: 1rem;
+  }
+
+  .choose-text {
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    /* Set single column for smaller screens */
+  }
+
+  .grid-item {
+    margin-top: -4rem;
+  }
+
+  .button {
+    padding-top: 15px;
+    height: 50px;
+    background-color: orangered;
+    margin: 0 auto;
+  }
+
+  .product-header2 {
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: orangered;
+    margin-left: 0;
+  }
+
+  .product-list {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .service-header {
+    text-align: left;
+    font-size: 20px;
+    color: orangered;
+    margin-left: 0;
+  }
+
+  .contact-us {
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: orangered;
+  }
+
+  .phone {
+    text-align: left;
+  }
+
+  .email {
+    text-align: left;
+  }
+
+  .adress {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: orangered;
+  }
+
+}

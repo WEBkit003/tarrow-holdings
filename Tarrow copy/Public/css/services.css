@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.Logo {
+  display: none;
+}
+
+/* Navigation */
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 150px;
+}
+
+.nav-link:hover {
+  color: orangered;
+}
+
+.dropdown-menu{
+  border-radius: 0;
+  background-color: #000;
+  opacity: 80%;
+  }
+  
+  .dropdown-item:hover{
+  color:orangered;
+  background-color: transparent;
+  transition: 1s;
+  }
+  
+  .dropdown-item{
+    opacity: 100%;
+    color: #fff;
+  }
+  
+  .dropdown-hr{
+    background-color: #fff;
+    height: 2px;
+    opacity: 100%;
+  }
+  
+/* headings */
+
+/* decide on image */
+/* .services-img{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+} */
+
+.main-head{
+  color: #000;
+}
+
+.main-hr {
+  background-color:black;
+  opacity: 100%;
+  height: 2px;
+  width: 120px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.main-para {
+  color: #000;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-inline: 10rem;
+}
+
+.cont-btn {
+  padding-top: 15px;
+  height: 50px;
+  width: 10%;
+  background-color: #ff0000;
+  margin: 0 auto;
+  box-shadow: 0px 4px 2px 0px rgb(251, 19, 19);
+}
+
+.portfolio-button {
+  text-decoration: none;
+  color: #fff;
+  border: 0;
+  height: 50px;
+
+}
+
+.head {
+  margin-top: 5rem;
+}
+
+.first-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 570px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.second-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 450px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.third-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 620px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.fourth-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 250px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.head-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-inline: 200px;
+}
+
+.pictures {
+  margin: auto;
+}
+
+.item {
+  display: inline-block;
+  text-decoration: none;
+  background: #FFF;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+  box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+  position: relative;
+}
+
+.item img {
+  width: 360px;
+  height: 260px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+}
+
+.grid-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Create three equal-width columns */
+}
+
+.grid-item {
+  color: white;
+  padding: 20px;
+}
+
+.footer-logo {
+  height: 200px;
+  float: left;
+}
+
+.footer-text {
+  text-align: left;
+  float: left;
+}
+
+.button {
+  padding: 15px;
+  height: 50px;
+  width: auto;
+  background-color: orangered;
+  float: left;
+}
+
+.first-button {
+  padding: 15px;
+  height: 50px;
+  width: 30%;
+  background-color: orangered;
+  margin: 0 auto;
+}
+
+.quote {
+  text-decoration: none;
+  color: #000000;
+  border: 0;
+}
+
+.Footer-quote {
+  float: left;
+  background-color: orangered;
+  border: none;
+  height: 45px;
+  width: auto;
+  margin: 0;
+  padding: 5px;
+}
+
+.socials {
+  margin-top: 5rem;
+  margin-left: -7.5rem;
+  float: left;
+  text-align: left;
+}
+
+.product-header2 {
+  text-align: left;
+  width: 250px;
+  margin:5rem auto 0;
+  padding: 0;
+  font-size: 20px;
+  color: orangered;
+}
+
+.product-list {
+  list-style: none;
+  width: 250px;
+  text-align: left;
+  margin:auto;
+  padding: 0;
+}
+
+.service-header {
+  text-align: center;
+  width: 100px;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+.contact-us {
+  margin-top: 5rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+.adress {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: orangered;
+}
+
+@media screen and (max-width: 991px) {
+
+  .navbar-brand {
+    display: flex;
+    height: 150px;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .navbar-brand img {
+    transition: opacity 0.3s ease-in;
+  }
+
+  .nav-item {
+    text-align: left;
+  }
+
+  .head-text {
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-inline: 10px;
+  }
+
+  /* .services-img{
+
+  } */
+
+  .main-para {
+    padding-inline: 1rem;
+  }
+
+  .cont-btn {
+    padding-top: 15px;
+    height: 50px;
+    width: 30%;
+    background-color: #ff0000;
+    margin: 0 auto;
+    box-shadow: 0px 4px 2px 0px rgb(251, 19, 19);
+  }
+  
+  .portfolio-button {
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    height: 50px;
+  
+  }
+  
+
+  /* Footer */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    margin-top: -2rem;
+  }
+
+  .product-header2 {
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: orangered;
+    margin-left: 0;
+  }
+
+  .product-list {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .service-header {
+    text-align: left;
+    font-size: 20px;
+    color: orangered;
+    margin-left: 0;
+  }
+
+  .contact-us {
+    text-align: left;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: orangered;
+  }
+
+  .phone {
+    text-align: left;
+  }
+
+  .email {
+    text-align: left;
+  }
+
+  .adress {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: orangered;
+  }
+}

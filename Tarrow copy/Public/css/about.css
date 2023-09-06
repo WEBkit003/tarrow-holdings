@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    line-height: 20px;
+}
+
+
+/* Navigation */
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 150px;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+    background-color: #000;
+    opacity: 80%;
+    }
+    
+    .dropdown-item:hover{
+    color:orangered;
+    background-color: transparent;
+    transition: 1s;
+    }
+    
+    .dropdown-item{
+      opacity: 100%;
+      color: #fff;
+    }
+    
+    .dropdown-hr{
+      background-color: #fff;
+      height: 2px;
+      opacity: 100%;
+    }
+    
+
+/* main */
+
+h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.second-hr {
+    background-color: orangered;
+    opacity: 100%;
+    height: 2px;
+    width: 150px;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+
+.portfolio-text {
+    margin-top: 2rem;
+}
+
+.portfolio-button {
+    text-decoration: none;
+    color: #000000;
+    border: 0;
+    height: 50px;
+
+}
+
+.about-text {
+    margin-top: 1.5rem;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    word-spacing: 1px;
+}
+
+.pictures {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.item {
+    display: inline-block;
+    text-decoration: none;
+    background: #FFF;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+    box-shadow: 2px 2px 2px 0px rgba(212, 212, 212, 1);
+    position: relative;
+}
+
+.item img {
+    width: 360px;
+    height: 260px;
+}
+
+.second-hr {
+    background-color: orangered;
+    opacity: 100%;
+    height: 2px;
+    width: 130px;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.contact-quote {
+    background-color: orangered;
+    border: none;
+    height: 45px;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+}
+
+
+h2 {
+    margin-top: 2rem;
+}
+
+.wedo {
+    margin-top: 2rem;
+    padding: 40px;
+    text-align: center;
+}
+
+.large-image {
+    height: 600px;
+    width: 100%;
+}
+
+.third-hr {
+    background-color: orangered;
+    opacity: 100%;
+    height: 2px;
+    width: 390px;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.parallax {
+    background: url('https://safti.com/wp-content/uploads/2015/07/Fire-Barrier-M-Tec-3-1.jpg') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.parallax-inner {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.second-div {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.cap-text {
+    margin-top: 2rem;
+}
+
+.bold-text {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.item-grid li {
+    list-style: none;
+}
+
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.column-text {
+    margin-right: -4rem;
+}
+
+.video-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.portfolio-text {
+    margin-top: 2rem;
+}
+
+.portfolio-button {
+    text-decoration: none;
+    color: #000000;
+    border: 0;
+    height: 50px;
+
+}
+
+.button {
+    padding-top: 15px;
+    height: 50px;
+    width: 10%;
+    background-color: orangered;
+    margin: 0 auto;
+    box-shadow: 0px 4px 2px 0px rgb(155, 152, 152);
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+.grid-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/* Create three equal-width columns */
+    gap: 20px;/* Add spacing between grid items */
+}
+
+.grid-item {
+    color: white;
+    padding: 20px;
+}
+
+.footer-logo {
+    height: 200px;
+    float: left;
+}
+
+.footer-text {
+    text-align: left;
+    float: left;
+}
+
+.Footer-quote {
+    float: left;
+    background-color: orangered;
+    border: none;
+    height: 45px;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+}
+
+.socials {
+    margin-top: 5rem;
+    margin-left: -7.5rem;
+    float: left;
+    text-align: left;
+}
+
+.product-header2 {
+    text-align: left;
+    width: 250px;
+    margin:5rem auto 0;
+    padding: 0;
+    font-size: 20px;
+    color: orangered;
+}
+
+.product-list {
+    list-style: none;
+    text-align: left;
+    width: 250px;
+    margin:auto;
+    padding: 0;
+}
+
+.service-header {
+    text-align: center;
+    width: 100px;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: orangered;
+}
+
+.contact-us {
+    margin-top: 5rem;
+    font-size: 20px;
+    color: orangered;
+}
+
+.adress {
+    margin-top: 1rem;
+    font-size: 20px;
+    color: orangered;
+}
+
+
+.footer-end {
+    background-color: #fff;
+    -webkit-box-shadow: 0px -2px 2px 0px rgba(212, 212, 212, 1);
+    -moz-box-shadow: 0px -2px 2px 0px rgba(212, 212, 212, 1);
+    box-shadow: 0px -2px 2px 0px rgba(212, 212, 212, 1);
+    padding: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.footer-end a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    border-bottom: solid 1px rgba(0, 0, 0, .1);
+}
+
+.footer-end a:hover {
+    color: orangered;
+}
+
+@media screen and (max-width: 991px) {
+
+    .nav-item {
+        text-align: left;
+    }
+
+    .second-div {
+        width: auto;
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    .grid {
+        gap: 1rem;
+        margin-top: 0;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+
+    .video-column {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .video-2 {
+        margin-top: -3rem;
+    }
+
+    .button {
+        padding-top: 15px;
+        height: 50px;
+        width: 35%;
+        background-color: orangered;
+        margin: 0 auto;
+        box-shadow: 0px 4px 2px 0px rgb(155, 152, 152);
+    }
+
+    /* Footer */
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Set single column for smaller screens */
+    }
+
+    .grid-item {
+        margin-top: -2rem;
+    }
+
+    .product-header2 {
+        text-align: left;
+        margin-top: 5rem;
+        font-size: 20px;
+        color: orangered;
+        margin-left: 0;
+    }
+
+    .product-list {
+        text-decoration: none;
+        list-style: none;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .service-header {
+        text-align: left;
+        font-size: 20px;
+        color: orangered;
+        margin-left: 0;
+    }
+
+    .contact-us {
+        text-align: left;
+        margin-top: 5rem;
+        font-size: 20px;
+        color: orangered;
+    }
+
+    .phone {
+        text-align: left;
+    }
+
+    .email {
+        text-align: left;
+    }
+
+    .adress {
+        text-align: left;
+        margin-top: 1rem;
+        font-size: 20px;
+        color: orangered;
+    }
+}
