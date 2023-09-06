@@ -3,7 +3,6 @@ body {
   text-align: center;
   font-family: sans-serif;
   overflow-x: hidden;
-  width: auto;
   line-height:1.7rem;
 }
 
@@ -400,7 +399,7 @@ float: left;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
 
   .Logo {
     display: none;
