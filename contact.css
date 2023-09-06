@@ -389,6 +389,15 @@ footer {
     text-align: left;
   }
 
+  .contact-message {
+    background-color: #D9D9D9;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 3rem;
+    padding: 1rem;
+  
+  }
 
   .main-hr {
     width: 350px;
@@ -471,7 +480,4 @@ footer {
     color: orangered;
   }
 
-  .back-img{
-    display: none;
-  }
 }
