@@ -362,13 +362,13 @@ footer {
   color: orangered;
 }
 
-@media (max-width: 1006px) {
+/* @media (max-width: 1006px) {
 
   .contact-message {
     width: auto;
   }
 
-}
+} */
 
 @media (max-width: 768px) {
 
@@ -460,5 +460,9 @@ footer {
     margin-top: 1rem;
     font-size: 20px;
     color: orangered;
+  }
+
+  .back-img{
+    display: none;
   }
 }
