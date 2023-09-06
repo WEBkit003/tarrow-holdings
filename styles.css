@@ -2,7 +2,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
-  overflow-x: hidden;
   line-height:1.7rem;
 }
 
@@ -257,6 +256,11 @@ transition: 1s;
 }
 
 /* clients carousel */
+
+.section{
+  margin-bottom: -5rem;
+}
+
 .square-holder {
   padding:30px;
   border: 1px solid #cecece;
@@ -419,6 +423,16 @@ float: left;
   text-align: left;
 }
 
+.first-hr {
+  background-color: orangered;
+  opacity: 100%;
+  height: 2px;
+  width: 350px;
+  border: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+
   .rectangle {
     margin: 0; /* Remove the horizontal margins */
     align-items: center;/* Center the items vertically on smaller screens */
@@ -428,11 +442,23 @@ float: left;
   margin-top: 1rem;
 }
 
+.choose-hr {
+  height: 3px;
+  background-color: orangered;
+  opacity: 100%;
+  border: none;
+  width: 300px;
+  margin: 0 auto;
+}
   .choose-text {
     margin-top: 2rem;
+    padding-inline: 10px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: -2rem;
   }
+
+  /* footer */
   .grid-container {
     grid-template-columns: 1fr; /* Set single column for smaller screens */
   }
@@ -490,6 +516,10 @@ float: left;
     margin-top: 1rem;
     font-size: 20px;
     color: orangered;
+  }
+
+  .adress-text{
+    text-align: left;
   }
 
 }

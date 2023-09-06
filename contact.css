@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  overflow-x: hidden;
   width: 100%;
 }
 
@@ -388,6 +387,16 @@ footer {
   
   .nav-item{
     text-align: left;
+  }
+
+
+  .main-hr {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #f00;
+    height: 2px;
+    border: none;
+    opacity: 100%;
   }
 
   .submit-btn {
